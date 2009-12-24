@@ -1,0 +1,81 @@
+<configure
+   xmlns="http://namespaces.zope.org/zope"
+   xmlns:z3c="http://namespaces.zope.org/z3c"
+   xmlns:zojax="http://namespaces.zope.org/zojax"
+   xmlns:browser="http://namespaces.zope.org/browser"
+   i18n_domain="zojax.persistent.fields">
+
+  <include file="fields.zcml" />
+
+  <!-- Field -->
+  <browser:defaultView
+     name="context.html"
+     for="..interfaces.IField" />
+
+  <zojax:pagelet
+     name="index.html"
+     for="..interfaces.IFieldType"
+     class=".field.AddFieldForm"
+     permission="zojax.AddPersistentField" />
+
+  <zojax:pagelet
+     name="view"
+     title="View"
+     type="wizard.step"
+     for="..interfaces.IField
+	  zojax.content.forms.interfaces.IEditContentWizard"
+     class=".field.ViewField"
+     permission="zope.View"
+     weight="10" />
+
+  <zojax:pagelet
+     name="content"
+     title="Content"
+     type="wizard.step"
+     for="..interfaces.IField
+	  zojax.content.forms.interfaces.IEditContentWizard"
+     class=".field.EditFieldForm"
+     permission="zojax.ModifyContent"
+     weight="100" />
+
+  <adapter
+     name="cancel"
+     provides="zojax.wizard.interfaces.IWizardButton"
+     for="..interfaces.IField
+	  zojax.content.forms.interfaces.IEditContentWizard *"
+     factory=".field.backButton" />
+
+  <adapter
+      name="prompt"
+      factory=".select.PromptNeeded"
+      />
+
+  <!-- icons -->
+  <browser:icon
+     name="zmi_icon"
+     for="zojax.content.persistent_field_int"
+     file="resources/IntegerField.gif" />
+
+  <browser:icon
+     name="zmi_icon"
+     for="zojax.persistent.fields.interfaces.IField"
+     file="resources/StringField.gif" />
+
+  <browser:icon
+     name="zmi_icon"
+     for="zojax.persistent.fields.interfaces.IFieldType"
+     file="resources/StringField.gif" />
+
+  <browser:icon
+     name="zmi_icon"
+     for="zojax.content.persistent_field_text"
+     file="resources/TextAreaField.gif" />
+
+  <!-- rixhtext widget display -->
+  <zojax:pagelet
+     type="form.widget"
+     for="z3c.form.interfaces.IWidget 
+	  ..interfaces.IRichText z3c.form.interfaces.IDisplayForm"
+     template="displayrichtext.pt" />
+
+</configure>

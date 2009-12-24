@@ -1,0 +1,115 @@
+=============
+Boolean field
+=============
+
+    >>> from zope import component
+    >>> from zope.testbrowser.testing import Browser
+    >>> from zope.app.security.interfaces import IAuthentication
+    >>> from zojax.principal.profile.interfaces import IPersonalProfile
+
+    >>> auth = component.getUtility(IAuthentication)
+    >>> principal = auth.getPrincipal('zope.user')
+    >>> profile = IPersonalProfile(principal)
+
+    >>> admin = Browser()
+    >>> admin.addHeader("Authorization", "Basic mgr:mgrpw")
+    >>> admin.handleErrors = False
+    >>> admin.open("http://localhost/settings/principals/profile/default/")
+
+    >>> user = Browser()
+    >>> user.addHeader("Authorization", "Basic user:userpw")
+    >>> user.handleErrors = False
+
+
+Create field
+------------
+
+    >>> admin.getLink('Boolean').click()
+    >>> admin.getControl('Title').value = u'Field 1'
+    >>> admin.getControl(name="content.add.widgets.category:list").value = ['Category1']
+    >>> admin.getControl('Content short name').value = u'field1'
+    >>> admin.getControl(name="content.add.buttons.add").click()
+    >>> admin.getControl(name="content.edit.buttons.cancel").click()
+
+    >>> admin.getLink('Boolean').click()
+    >>> admin.getControl('Title').value = u'Field 2'
+    >>> admin.getControl(name="content.add.widgets.required:list").value = ['true']
+    >>> admin.getControl(name="content.add.widgets.category:list").value = ['Category2']
+    >>> admin.getControl('Content short name').value = u'field2'
+    >>> admin.getControl(name="content.add.buttons.add").click()
+    >>> admin.getControl(name="content.edit.buttons.cancel").click()
+
+
+Modify field
+------------
+
+    >>> user.open("http://localhost/people/user/profile/profile/")
+    >>> print user.contents
+    <html>
+    ...<h3 class="z-form-grouplabel">Category1</h3>...
+    ...<label for="category-widgets-field1"...>Field 1</label>...
+    ...<h3 class="z-form-grouplabel">Category2</h3>...
+    ...<label for="category-widgets-field2"...>Field 2</label>...
+    </html>
+
+    >>> user.getControl('Save').click()
+
+
+    >>> 'Please fix indicated errors.' in user.contents
+    True
+
+    >>> user.getControl(name="category.widgets.field1:list").value = ['true']
+    >>> user.getControl(name="category.widgets.field2:list").value = ['false']
+    >>> user.getControl('Save').click()
+
+    >>> data = profile.getProfileData()
+
+    >>> type(data['field1']), data['field1']
+    (<type 'bool'>, True)
+
+    >>> type(data['field2']), data['field2']
+    (<type 'bool'>, False)
+
+
+View fields
+-----------
+
+    >>> user.open("http://localhost/people/user/profile/")
+    >>> print user.contents
+    <html>
+    ...
+    <div class="z-form-group">
+      <h3 class="z-form-grouplabel">Category1</h3>
+      <div class="z-form-fieldset">
+        <div class="z-form-field">
+          <label for="form-widgets-field1"...>Field 1</label>
+          <div>
+            <span id="form-widgets-field1"
+             class="radio-widget required bool-field"><span
+             class="selected-option">yes</span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="z-form-group">
+      <h3 class="z-form-grouplabel">Category2</h3>
+      <div class="z-form-fieldset">
+        <div class="z-form-field">
+          <label for="form-widgets-field2"...>Field 2</label>
+          <div>
+           <span id="form-widgets-field2"
+             class="radio-widget required bool-field"><span
+             class="selected-option">no</span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    ...
+    </html>
+
+
+Remove fields
+-------------
+
+    >>> admin.getControl(name='ids:list').value = ['field1', 'field2']
+    >>> admin.getControl('Delete').click()

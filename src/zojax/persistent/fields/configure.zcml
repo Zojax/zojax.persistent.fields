@@ -1,0 +1,387 @@
+<configure
+   xmlns="http://namespaces.zope.org/zope"
+   xmlns:zojax="http://namespaces.zope.org/zojax"
+   i18n_domain="zojax.persistent.fields">
+
+  <permission
+     id="zojax.AddPersistentField"
+     title="Add persistent field" />
+
+  <interface
+     name="Persistent fields container"
+     interface=".interfaces.IFieldsContainer"
+     type="zojax.content.type.interfaces.IContentTypeType" />
+
+  <!-- Boolean -->
+  <zojax:content
+     title="Boolean"
+     name="persistent.field.bool"
+     schema=".interfaces.IBool"
+     type=".interfaces.IFieldType"
+     containers=".interfaces.IFieldsContainer"
+     description="Boolean field (YES or NO)"
+     class=".fields.Bool"
+     permission="zojax.AddPersistentField" />
+
+  <class class=".fields.Bool">
+    <require
+       permission="zope.View"
+       interface=".interfaces.IField
+      zope.schema.interfaces.IBool" />
+    <require
+       permission="zojax.ModifyContent"
+       set_schema=".interfaces.IField
+       zope.schema.interfaces.IBool" />
+  </class>
+
+  <!-- Text -->
+  <zojax:content
+     title="Text"
+     name="persistent.field.text"
+     schema=".interfaces.IText"
+     type=".interfaces.IFieldType"
+     containers=".interfaces.IFieldsContainer"
+     description="Field containing text with newlines."
+     class=".fields.Text"
+     permission="zojax.AddPersistentField" />
+
+  <class class=".fields.Text">
+    <require
+       permission="zope.View"
+       interface=".interfaces.IField
+      zope.schema.interfaces.IText" />
+    <require
+       permission="zojax.ModifyContent"
+       set_schema=".interfaces.IField
+       zope.schema.interfaces.IText" />
+  </class>
+
+  <!-- Text line -->
+  <zojax:content
+     title="Text Line"
+     name="persistent.field.textline"
+     schema=".interfaces.ITextLine"
+     type=".interfaces.IFieldType"
+     containers=".interfaces.IFieldsContainer"
+     description="Field containing text line without newlines."
+     class=".fields.TextLine"
+     permission="zojax.AddPersistentField" />
+
+  <class class=".fields.TextLine">
+    <require
+       permission="zope.View"
+       interface=".interfaces.IField
+      zope.schema.interfaces.ITextLine" />
+    <require
+       permission="zojax.ModifyContent"
+       set_schema=".interfaces.IField
+       zope.schema.interfaces.ITextLine" />
+  </class>
+
+  <!-- Integer -->
+  <zojax:content
+     title="Integer"
+     name="persistent.field.int"
+     schema=".interfaces.IInt"
+     type=".interfaces.IFieldType"
+     containers=".interfaces.IFieldsContainer"
+     description="Field containing an Integer Value."
+     class=".fields.Int"
+     permission="zojax.AddPersistentField" />
+
+  <class class=".fields.Int">
+    <require
+       permission="zope.View"
+       interface=".interfaces.IField
+      zope.schema.interfaces.IInt" />
+    <require
+       permission="zojax.ModifyContent"
+       set_schema=".interfaces.IField
+       zope.schema.interfaces.IInt" />
+  </class>
+
+  <!-- Date -->
+  <zojax:content
+     title="Date"
+     name="persistent.field.date"
+     schema=".interfaces.IDate"
+     type=".interfaces.IFieldType"
+     containers=".interfaces.IFieldsContainer"
+     description="Field containing a date."
+     class=".fields.Date"
+     permission="zojax.AddPersistentField" />
+
+  <class class=".fields.Date">
+    <require
+       permission="zope.View"
+       interface=".interfaces.IField
+      zope.schema.interfaces.IDate" />
+    <require
+       permission="zojax.ModifyContent"
+       set_schema=".interfaces.IField
+       zope.schema.interfaces.IDate" />
+  </class>
+
+  <!-- Datetime -->
+  <zojax:content
+     title="Datetime"
+     name="persistent.field.datetime"
+     schema=".interfaces.IDatetime"
+     type=".interfaces.IFieldType"
+     containers=".interfaces.IFieldsContainer"
+     description="Field containing a date and time."
+     class=".fields.Datetime"
+     permission="zojax.AddPersistentField" />
+
+  <class class=".fields.Datetime">
+    <require
+       permission="zope.View"
+       interface=".interfaces.IField
+      zope.schema.interfaces.IDatetime" />
+    <require
+       permission="zojax.ModifyContent"
+       set_schema=".interfaces.IField
+       zope.schema.interfaces.IDatetime" />
+  </class>
+
+  <!-- Time -->
+  <zojax:content
+     title="Time"
+     name="persistent.field.time"
+     schema=".interfaces.ITime"
+     type=".interfaces.IFieldType"
+     containers=".interfaces.IFieldsContainer"
+     description="Field containing a time."
+     class=".fields.Time"
+     permission="zojax.AddPersistentField" />
+
+  <class class=".fields.Time">
+    <require
+       permission="zope.View"
+       interface=".interfaces.IField
+      zope.schema.interfaces.ITime" />
+    <require
+       permission="zojax.ModifyContent"
+       set_schema=".interfaces.IField
+       zope.schema.interfaces.ITime" />
+  </class>
+
+  <!-- Select -->
+  <zojax:content
+     title="Select"
+     name="persistent.field.select"
+     schema=".interfaces.ISelect"
+     type=".interfaces.IFieldType"
+     containers=".interfaces.IFieldsContainer"
+     description="Field containing list of items, member can select only one item."
+     class=".fields.Select"
+     permission="zojax.AddPersistentField" />
+
+  <class class=".fields.Select">
+    <require
+       permission="zope.View"
+       interface=".interfaces.IField .interfaces.ISelect" />
+    <require
+       permission="zojax.ModifyContent"
+       set_schema=".interfaces.IField .interfaces.ISelect" />
+  </class>
+
+  <!-- Radio select -->
+  <zojax:content
+     title="Radio Select"
+     name="persistent.field.radio"
+     schema=".interfaces.IRadioSelect"
+     type=".interfaces.IFieldType"
+     containers=".interfaces.IFieldsContainer"
+     description="Field containing list of items, member can select only one item."
+     class=".fields.RadioSelect"
+     permission="zojax.AddPersistentField" />
+
+  <class class=".fields.RadioSelect">
+    <require
+       permission="zope.View"
+       interface=".interfaces.IField .interfaces.IRadioSelect" />
+    <require
+       permission="zojax.ModifyContent"
+       set_schema=".interfaces.IField .interfaces.IRadioSelect" />
+  </class>
+
+  <!-- Multi Select -->
+  <zojax:content
+     title="Multi select"
+     name="persistent.field.multiselect"
+     schema=".interfaces.IMultiSelect"
+     type=".interfaces.IFieldType"
+     containers=".interfaces.IFieldsContainer"
+     description="Field containing list of values, member can select multple items."
+     class=".fields.MultiSelect"
+     permission="zojax.AddPersistentField" />
+
+  <class class=".fields.MultiSelect">
+    <require
+       permission="zope.View"
+       interface=".interfaces.IField
+      .interfaces.IMultiSelect" />
+    <require
+       permission="zojax.ModifyContent"
+       set_schema=".interfaces.IField
+       .interfaces.IMultiSelect" />
+  </class>
+
+  <!-- Multi checkbox -->
+  <zojax:content
+     title="Multi checkbox"
+     name="persistent.field.multicheckbox"
+     schema=".interfaces.IMultiCheckbox"
+     type=".interfaces.IFieldType"
+     containers=".interfaces.IFieldsContainer"
+     description="Field containing list of values, member can select multple items but with checkboxs."
+     class=".fields.MultiCheckbox"
+     permission="zojax.AddPersistentField" />
+
+  <class class=".fields.MultiCheckbox">
+    <require
+       permission="zope.View"
+       interface=".interfaces.IField
+      .interfaces.IMultiCheckbox" />
+    <require
+       permission="zojax.ModifyContent"
+       set_schema=".interfaces.IField
+       .interfaces.IMultiCheckbox" />
+  </class>
+
+
+  <!-- EMail field -->
+  <zojax:content
+     title="EMail"
+     name="persistent.field.email"
+     schema=".interfaces.IEmailField"
+     type=".interfaces.IFieldType"
+     containers=".interfaces.IFieldsContainer"
+     description="Field containing an email address."
+     class=".fields.EMail"
+     permission="zojax.AddPersistentField" />
+
+  <class class=".fields.EMail">
+    <require
+       permission="zope.View"
+       interface=".interfaces.IField
+      .interfaces.IEmailField" />
+    <require
+       permission="zojax.ModifyContent"
+       set_schema=".interfaces.IField
+       .interfaces.IEmailField" />
+  </class>
+
+  <!-- URL field -->
+  <zojax:content
+     title="URL"
+     name="persistent.field.url"
+     schema=".interfaces.IURLField"
+     type=".interfaces.IFieldType"
+     containers=".interfaces.IFieldsContainer"
+     description="Field containing a web url address."
+     class=".fields.URL"
+     permission="zojax.AddPersistentField" />
+
+  <class class=".fields.URL">
+    <require
+       permission="zope.View"
+       interface=".interfaces.IField
+      .interfaces.IURLField" />
+    <require
+       permission="zojax.ModifyContent"
+       set_schema=".interfaces.IField
+       .interfaces.IURLField" />
+  </class>
+
+  <!-- Rich Text Field -->
+  <zojax:content
+     title="RichText"
+     name="persistent.field.richtext"
+     schema=".interfaces.IRichText"
+     type=".interfaces.IFieldType"
+     containers=".interfaces.IFieldsContainer"
+     description="Field containing a rich text. Allow edit text with editor."
+     class=".fields.RichText"
+     permission="zojax.AddPersistentField" />
+
+  <class class=".fields.RichText">
+    <require
+       permission="zope.View"
+       interface=".interfaces.IField
+      .interfaces.IRichText" />
+    <require
+       permission="zojax.ModifyContent"
+       set_schema=".interfaces.IField
+       .interfaces.IRichText" />
+  </class>
+
+  <!-- Country field -->
+  <zojax:content
+     title="Country"
+     name="persistent.field.country"
+     schema=".interfaces.ICountry"
+     type=".interfaces.IFieldType"
+     containers=".interfaces.IFieldsContainer"
+     description="Field containing a country name."
+     class=".fields.Country"
+     permission="zojax.AddPersistentField" />
+
+  <class class=".fields.Country">
+    <require
+       permission="zope.View"
+       interface=".interfaces.IField
+      .interfaces.ICountry" />
+    <require
+       permission="zojax.ModifyContent"
+       set_schema=".interfaces.IField
+       .interfaces.ICountry" />
+  </class>
+
+  <!-- State field -->
+  <zojax:content
+     title="US State"
+     name="persistent.field.state"
+     schema=".interfaces.IState"
+     type=".interfaces.IFieldType"
+     containers=".interfaces.IFieldsContainer"
+     description="Field containing a us state name."
+     class=".fields.State"
+     permission="zojax.AddPersistentField" />
+
+  <class class=".fields.State">
+    <require
+       permission="zope.View"
+       interface=".interfaces.IField
+      .interfaces.IState" />
+    <require
+       permission="zojax.ModifyContent"
+       set_schema=".interfaces.IField
+       .interfaces.IState" />
+  </class>
+
+  <!-- Lines field -->
+  <zojax:content
+     title="Lines"
+     name="persistent.field.lines"
+     schema=".interfaces.ILines"
+     type=".interfaces.IFieldType"
+     containers=".interfaces.IFieldsContainer"
+     description="Field containing a list of text lines."
+     class=".fields.Lines"
+     permission="zojax.AddPersistentField" />
+
+  <class class=".fields.Lines">
+    <require
+       permission="zope.View"
+       interface=".interfaces.IField .interfaces.ILines" />
+    <require
+       permission="zojax.ModifyContent"
+       set_schema=".interfaces.IField .interfaces.ILines" />
+  </class>
+
+  <!-- browser views -->
+  <include package=".browser" />
+
+</configure>

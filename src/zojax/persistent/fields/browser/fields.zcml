@@ -1,0 +1,102 @@
+<configure
+   xmlns="http://namespaces.zope.org/zope"
+   xmlns:z3c="http://namespaces.zope.org/z3c"
+   xmlns:zojax="http://namespaces.zope.org/zojax"
+   xmlns:browser="http://namespaces.zope.org/browser"
+   i18n_domain="zojax.persistent.fields">
+
+  <!-- multi select widget -->
+  <class class=".multiselect.MultiSelectWidget">
+    <require
+       permission="zope.Public"
+       interface="z3c.form.interfaces.ISelectWidget" />
+  </class>
+
+  <adapter factory=".multiselect.MultiSelectFieldWidget" />
+
+  <z3c:widgetTemplate
+     mode="input"
+     widget=".multiselect.MultiSelectWidget"
+     layer="z3c.form.interfaces.IFormLayer"
+     template="multiselect_input.pt" />
+
+  <browser:icon
+     name="zmi_icon"
+     for="zojax.content.persistent_field_multiselect"
+     file="resources/MultiListField.gif" />
+
+  <browser:icon
+     name="zmi_icon"
+     for="..interfaces.IMultiSelect"
+     file="resources/MultiListField.gif" />
+
+  <!-- multi checkbox widget -->
+  <class class=".multiselect.MultiCheckboxWidget">
+    <require
+       permission="zope.Public"
+       interface="z3c.form.interfaces.ISelectWidget" />
+  </class>
+
+  <adapter factory=".multiselect.MultiCheckboxFieldWidget" />
+
+  <z3c:widgetTemplate
+     mode="input"
+     widget=".multiselect.MultiCheckboxWidget"
+     layer="z3c.form.interfaces.IFormLayer"
+     template="multicheckbox_input.pt" />
+
+  <browser:icon
+     name="zmi_icon"
+     for="zojax.content.persistent_field_multicheckbox"
+     file="resources/MultiCheckBoxField.gif" />
+
+  <browser:icon
+     name="zmi_icon"
+     for="..interfaces.IMultiCheckbox"
+     file="resources/MultiCheckBoxField.gif" />
+
+  <!-- email field -->
+  <browser:icon
+     name="zmi_icon"
+     for="zojax.persistent.fields.interfaces.IEmailField"
+     file="resources/EmailField.gif" />
+
+  <browser:icon
+     name="zmi_icon"
+     for="zojax.content.persistent_field_email"
+     file="resources/EmailField.gif" />
+
+  <!-- email field -->
+  <browser:icon
+     name="zmi_icon"
+     for="zojax.persistent.fields.interfaces.IURLField"
+     file="resources/LinkField.gif" />
+
+  <browser:icon
+     name="zmi_icon"
+     for="zojax.content.persistent_field_url"
+     file="resources/LinkField.gif" />
+
+  <!-- lines field -->
+  <browser:icon
+     name="zmi_icon"
+     for="zojax.persistent.fields.interfaces.ILines"
+     file="resources/LinesField.gif" />
+
+  <browser:icon
+     name="zmi_icon"
+     for="zojax.content.persistent_field_lines"
+     file="resources/LinesField.gif" />
+
+  <!-- radio select field -->
+  <browser:icon
+     name="zmi_icon"
+     for="zojax.persistent.fields.interfaces.IRadioSelect"
+     file="resources/RadioField.gif" />
+
+  <browser:icon
+     name="zmi_icon"
+     for="zojax.content.persistent_field_radio"
+     file="resources/RadioField.gif" />
+
+</configure>

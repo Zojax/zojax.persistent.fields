@@ -1,0 +1,5 @@
+<div class="z-form-fielddisplay">
+  <div tal:content="structure context/render">
+    <input type="text" style="width:100%" />
+  </div>
+</div>

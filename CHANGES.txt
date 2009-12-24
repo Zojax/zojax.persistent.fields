@@ -1,0 +1,80 @@
+=======
+CHANGES
+=======
+
+0.5.2 (Unreleased)
+
+- Uncapitalized country titles in country vocabulary
+
+- Fix Select init method
+
+
+0.5.1 (2009-12-03)
+------------------
+
+- Fixed a bug with changing values in RadioSelect field.
+
+
+0.5.0 (2009-11-10)
+------------------
+
+- Add RadioSelect field that is like Select, but radio widget is used for its
+  presentation.
+
+- Add support for explicit value selection in Select fields.
+
+- Added uniqueness to vocabulary fields
+
+
+0.4.3 (2009-10-14)
+------------------
+
+- Added permission to add persistent field
+
+
+0.4.2 (2009-08-19)
+------------------
+
+- Fix IFieldType, content type type can't extend IContentType
+
+
+0.4.1 (2009-08-11)
+------------------
+
+- Add zojax.AddPersistentField permission instead of zojax.AddContent
+
+- Update test for chameleon enabled setup
+
+
+0.4.0 (2009-06-21)
+------------------
+
+- Fixed URL field, email class used in content declaration
+
+- Use newer personal profile api
+
+- Remove unused zojax.content.browser dependency
+
+- Copyright changed to 'Zope Foundation and Contributors'
+
+
+0.3.0 (2009-05-13)
+------------------
+
+- Fix field test/edit forms
+
+- Do not require title attribute for field
+
+
+0.2.0 (2009-05-06)
+------------------
+
+- Title attribute required
+
+- Do not use z3c.autoinclude
+
+
+0.1.0 (2009-03-14)
+------------------
+
+- Initial release.
