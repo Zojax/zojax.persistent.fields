@@ -43,6 +43,16 @@ class IField(IContent):
         """ set field data """
 
 
+class IBaseField(interface.Interface):
+
+    title = schema.TextLine(title=_(u"Title"),
+                            description=_(u"A short summary or label"),
+                            default=u"",
+                            )
+
+    title.order = 0
+
+
 class IFieldSchema(interface.Interface):
     """ additional field schema,
         depends on fields container and field content type """
@@ -72,7 +82,7 @@ class IFieldWithVocabulary(interface.Interface):
         missing_value = [])
 
 
-class ISelect(schema.interfaces.IChoice, IFieldWithVocabulary):
+class ISelect(IBaseField, schema.interfaces.IChoice, IFieldWithVocabulary):
     """ select """
 
     explicitSelect = schema.Bool(
@@ -80,7 +90,7 @@ class ISelect(schema.interfaces.IChoice, IFieldWithVocabulary):
         default=False)
 
 
-class IRadioSelect(IRadioChoice, IFieldWithVocabulary):
+class IRadioSelect(IBaseField, IRadioChoice, IFieldWithVocabulary):
     """ select using radio buttons """
 
     horizontal = schema.Bool(
@@ -88,55 +98,55 @@ class IRadioSelect(IRadioChoice, IFieldWithVocabulary):
         default=False)
 
 
-class IMultiSelect(schema.interfaces.IList, IFieldWithVocabulary):
+class IMultiSelect(IBaseField, schema.interfaces.IList, IFieldWithVocabulary):
     """ multi select """
 
 
-class IMultiCheckbox(schema.interfaces.IList, IFieldWithVocabulary):
+class IMultiCheckbox(IBaseField, schema.interfaces.IList, IFieldWithVocabulary):
     """ multi checkbox select """
 
 
-class IBool(schema.interfaces.IBool):
+class IBool(IBaseField, schema.interfaces.IBool):
     pass
 
 
-class IInt(schema.interfaces.IInt):
+class IInt(IBaseField, schema.interfaces.IInt):
     pass
 
 
-class IText(schema.interfaces.IText):
+class IText(IBaseField, schema.interfaces.IText):
     pass
 
 
-class ITextLine(schema.interfaces.ITextLine):
+class ITextLine(IBaseField, schema.interfaces.ITextLine):
     pass
 
 
-class IEmailField(IRFC822MailAddress):
+class IEmailField(IBaseField, IRFC822MailAddress):
     """ email field """
 
 
-class IURLField(IBaseURL):
+class IURLField(IBaseField, IBaseURL):
     """ url field """
 
 
-class IRichText(IRichText):
+class IRichText(IBaseField, IRichText):
     """ rich text field """
 
 
-class ICountry(schema.interfaces.ITextLine):
+class ICountry(IBaseField, schema.interfaces.ITextLine):
     """ Country """
 
 
-class IState(schema.interfaces.ITextLine):
+class IState(IBaseField, schema.interfaces.ITextLine):
     """ US State """
 
 
-class ILines(schema.interfaces.IField):
+class ILines(IBaseField, schema.interfaces.IField):
     """ Lines field """
 
 
-class IDate(schema.interfaces.IDate):
+class IDate(IBaseField, schema.interfaces.IDate):
 
     min = schema.Date(
         title=_(u"Start of the range"),
@@ -147,7 +157,7 @@ class IDate(schema.interfaces.IDate):
         required=False)
 
 
-class IDatetime(schema.interfaces.IDatetime):
+class IDatetime(IBaseField, schema.interfaces.IDatetime):
 
     min = schema.Datetime(
         title=_(u"Start of the range"),
@@ -158,7 +168,7 @@ class IDatetime(schema.interfaces.IDatetime):
         required=False)
 
 
-class ITime(schema.interfaces.ITime):
+class ITime(IBaseField, schema.interfaces.ITime):
 
     min = schema.Time(
         title=_(u"Start of the range"),
