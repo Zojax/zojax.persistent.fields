@@ -12,6 +12,10 @@
      interface=".interfaces.IFieldsContainer"
      type="zojax.content.type.interfaces.IContentTypeType" />
 
+  <class class=".field.Field">
+    <implements interface="zojax.content.type.interfaces.ITitleBasedName" />
+  </class>
+
   <!-- Boolean -->
   <zojax:content
      title="Boolean"
@@ -112,6 +116,7 @@
      permission="zojax.AddPersistentField" />
 
   <class class=".fields.Date">
+    <implements interface="zojax.content.type.interfaces.ITitleBasedName" />
     <require
        permission="zope.View"
        interface=".interfaces.IField
