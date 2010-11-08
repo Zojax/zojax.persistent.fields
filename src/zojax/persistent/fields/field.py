@@ -21,7 +21,7 @@ from zope import interface
 from zope.app.container.contained import Contained
 from zope.schema.fieldproperty import FieldProperty
 
-from zojax.content.type.interfaces import IItem
+from zojax.content.type.interfaces import IItem, ITitleBasedName
 from zojax.persistent.fields.interfaces import IField
 
 
@@ -38,7 +38,7 @@ class NameProperty(object):
 
 
 class Field(Persistent, Contained):
-    interface.implements(IField, IItem)
+    interface.implements(IField, IItem, ITitleBasedName)
 
     __name__ = NameProperty()
 
