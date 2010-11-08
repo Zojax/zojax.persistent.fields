@@ -184,8 +184,7 @@ class Lines(Field, SimpleList):
 
     missing_value = []
 
-    def __init__(self, values=(), *args, **kw):
+    def __init__(self, *args, **kw):
         kw['default'] = []
         kw['value_type'] = schema.TextLine()
-        kw['values'] = values
         super(Lines, self).__init__(*args, **kw)
