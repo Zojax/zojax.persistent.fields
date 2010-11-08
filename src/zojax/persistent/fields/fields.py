@@ -79,10 +79,9 @@ class Select(Field, schema.Choice):
 
     __schema__ = DataProperty(interfaces.ISelect)
 
-    def __init__(self, *args, **kw):
+    def __init__(self, values=(), *args, **kw):
         self.explicitSelect = kw.pop('explicitSelect', False)
-        if 'values' not in kw:
-            kw['values'] = []
+        kw['values'] = values
         super(Select, self).__init__(*args, **kw)
 
     @setproperty
@@ -99,8 +98,9 @@ class RadioSelect(Field, RadioChoice):
 
     __schema__ = DataProperty(interfaces.IRadioSelect)
 
-    def __init__(self, *args, **kw):
+    def __init__(self, values=(), *args, **kw):
         self.horizontal = kw.pop('horizontal', False)
+        kw['values'] = values
         super(RadioSelect, self).__init__(*args, **kw)
 
     @setproperty
@@ -187,5 +187,5 @@ class Lines(Field, SimpleList):
     def __init__(self, values=(), *args, **kw):
         kw['default'] = []
         kw['value_type'] = schema.TextLine()
-
+        kw['values'] = values
         super(Lines, self).__init__(*args, **kw)

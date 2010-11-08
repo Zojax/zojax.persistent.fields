@@ -60,7 +60,7 @@ class AddFieldForm(AddForm):
 
         if self.schemas:
             fields = fields + Fields(*self.schemas)
-
+        fields['title'].field.required = True
         return fields
 
     def update(self):
@@ -134,7 +134,7 @@ class EditFieldForm(WizardStepForm):
 
         if self.schemas:
             fields = fields + Fields(*self.schemas)
-
+        fields['title'].field.required = True
         return fields
 
     def update(self):
