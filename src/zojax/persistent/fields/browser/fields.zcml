@@ -99,4 +99,15 @@
      for="zojax.content.persistent_field_radio"
      file="resources/RadioField.gif" />
 
+  <!-- captcha field -->
+  <browser:icon
+     name="zmi_icon"
+     for="zojax.persistent.fields.interfaces.ICaptcha"
+     file="resources/CaptchaField.gif" />
+
+  <browser:icon
+     name="zmi_icon"
+     for="zojax.content.persistent_field_captcha"
+     file="resources/CaptchaField.gif" />
+
 </configure>

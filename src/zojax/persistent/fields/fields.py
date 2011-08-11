@@ -26,6 +26,8 @@ from zojax.richtext.field import RichText
 from zojax.widget.list.field import SimpleList
 from zojax.widget.radio.field import RadioChoice
 
+from zojax.widget.captcha.field import Captcha as CaptchaField
+
 from zojax.persistent.fields import interfaces
 from zojax.persistent.fields.field import Field
 from zojax.persistent.fields.fieldtype import FieldType, DataProperty
@@ -61,6 +63,8 @@ EMail = FieldType(
 RichText = FieldType(
     'RichText', RichText, interfaces.IRichText)
 
+Captcha = FieldType(
+    'Captcha', CaptchaField, interfaces.ICaptcha)
 
 class URL(Field, BaseURL):
     interface.implements(interfaces.IURLField)

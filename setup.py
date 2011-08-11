@@ -62,6 +62,7 @@ setup(name = 'zojax.persistent.fields',
                           'zojax.statusmessage',
                           'zojax.widget.list',
                           'zojax.widget.radio',
+                          'zojax.widget.captcha'
                           ],
       extras_require = dict(test=['zope.app.testing',
                                   'zope.app.zcmlfiles',

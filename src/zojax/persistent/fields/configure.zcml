@@ -385,6 +385,26 @@
        permission="zojax.ModifyContent"
        set_schema=".interfaces.IField .interfaces.ILines" />
   </class>
+  
+  <!-- Captcha field -->
+  <zojax:content
+     title="Captcha"
+     name="persistent.field.captcha"
+     schema=".interfaces.ICaptcha"
+     type=".interfaces.IFieldType"
+     containers=".interfaces.IFieldsContainer"
+     description="Captcha Field for spam protection."
+     class=".fields.Captcha"
+     permission="zojax.AddPersistentField" />
+
+  <class class=".fields.Captcha">
+    <require
+       permission="zope.View"
+       interface=".interfaces.IField .interfaces.ICaptcha" />
+    <require
+       permission="zojax.ModifyContent"
+       set_schema=".interfaces.IField .interfaces.ICaptcha" />
+  </class>
 
   <!-- browser views -->
   <include package=".browser" />

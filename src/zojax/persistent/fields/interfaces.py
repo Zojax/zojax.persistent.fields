@@ -26,6 +26,8 @@ from zojax.widget.list.field import SimpleList
 from zojax.widget.radio.interfaces import IRadioChoice
 from zojax.content.type.interfaces import IItem, IContent, IContentType
 
+from zojax.widget.captcha.interfaces import ICaptchaField
+
 _ = MessageFactory('zojax.persistent.fields')
 
 
@@ -177,3 +179,6 @@ class ITime(IBaseField, schema.interfaces.ITime):
     max = schema.Time(
         title=_(u"End of the range (excluding the value itself)"),
         required=False)
+
+class ICaptcha(IBaseField, ICaptchaField):
+    """ Captcha """
