@@ -8,7 +8,7 @@
                          lang view/lang;
                          tabindex view/tabindex;
 			 value item/value;
-			 checked item/selected">
+			 checked item/selected" />
   <tal:block content="item/value" />
 </div>
 <input name="field-empty-marker" type="hidden" value="1"
