@@ -1,0 +1,434 @@
+##############################################################################
+#
+# Copyright (c) 2003-2004 Zope Corporation and Contributors.
+# All Rights Reserved.
+#
+# This software is subject to the provisions of the Zope Public License,
+# Version 2.1 (ZPL).  A copy of the ZPL should accompany this distribution.
+# THIS SOFTWARE IS PROVIDED "AS IS" AND ANY AND ALL EXPRESS OR IMPLIED
+# WARRANTIES ARE DISCLAIMED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+# WARRANTIES OF TITLE, MERCHANTABILITY, AGAINST INFRINGEMENT, AND FITNESS
+# FOR A PARTICULAR PURPOSE.
+#
+##############################################################################
+msgid ""
+msgstr ""
+"Project-Id-Version: Development/Unknown\n"
+"POT-Creation-Date: Thu Dec  8 23:06:42 2011\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: zope/app/locales/extract.py\n"
+
+#: src/zojax/persistent/fields/browser/field.py:157
+msgid "Test is failed."
+msgstr ""
+
+#: src/zojax/persistent/fields/browser/field.py:158
+msgid "Test is successful."
+msgstr ""
+
+#: src/zojax/persistent/fields/browser/field.py:167
+msgid "Test"
+msgstr ""
+
+#: src/zojax/persistent/fields/browser/field.py:187
+msgid "Back"
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:108
+msgid "Date"
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:108
+msgid "Field containing a date."
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:131
+msgid "Field containing a date and time."
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:131
+msgid "Datetime"
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:153
+msgid "Time"
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:153
+msgid "Field containing a time."
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:175
+msgid "Select"
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:175
+#: src/zojax/persistent/fields/configure.zcml:195
+msgid "Field containing list of items, member can select only one item."
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:195
+msgid "Radio Select"
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:20
+msgid "Boolean field (YES or NO)"
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:20
+msgid "Boolean"
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:215
+msgid "Multi select"
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:215
+msgid "Field containing list of values, member can select multple items."
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:237
+msgid "Multi checkbox"
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:237
+msgid "Field containing list of values, member can select multple items but with checkboxs."
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:260
+msgid "EMail"
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:260
+msgid "Field containing an email address."
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:282
+msgid "URL"
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:282
+msgid "Field containing a web url address."
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:304
+msgid "Field containing a rich text. Allow edit text with editor."
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:304
+msgid "RichText"
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:326
+msgid "Field containing a country name."
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:326
+msgid "Country"
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:348
+msgid "Field containing a us state name."
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:348
+msgid "US State"
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:370
+msgid "Lines"
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:370
+msgid "Field containing a list of text lines."
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:390
+msgid "Captcha"
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:390
+msgid "Captcha Field for spam protection."
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:42
+msgid "Field containing text with newlines."
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:42
+msgid "Text"
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:6
+msgid "Add persistent field"
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:64
+msgid "Text Line"
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:64
+msgid "Field containing text line without newlines."
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:86
+msgid "Field containing an Integer Value."
+msgstr ""
+
+#: src/zojax/persistent/fields/configure.zcml:86
+msgid "Integer"
+msgstr ""
+
+#: src/zojax/persistent/fields/interfaces.py:154
+#: src/zojax/persistent/fields/interfaces.py:165
+#: src/zojax/persistent/fields/interfaces.py:176
+msgid "Start of the range"
+msgstr ""
+
+#: src/zojax/persistent/fields/interfaces.py:158
+#: src/zojax/persistent/fields/interfaces.py:169
+#: src/zojax/persistent/fields/interfaces.py:180
+msgid "End of the range (excluding the value itself)"
+msgstr ""
+
+#: src/zojax/persistent/fields/interfaces.py:50
+msgid "Title"
+msgstr ""
+
+#: src/zojax/persistent/fields/interfaces.py:51
+msgid "A short summary or label"
+msgstr ""
+
+#: src/zojax/persistent/fields/interfaces.py:79
+msgid "Values"
+msgstr ""
+
+#: src/zojax/persistent/fields/interfaces.py:80
+msgid "Enter values for field, each line new value."
+msgstr ""
+
+#: src/zojax/persistent/fields/interfaces.py:91
+msgid "Use explicit value selection for required fields"
+msgstr ""
+
+#: src/zojax/persistent/fields/interfaces.py:99
+msgid "Use horizontal layout"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:100
+msgid "South Dakota"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:101
+msgid "Tennessee"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:102
+msgid "Texas"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:103
+msgid "Utah"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:104
+msgid "Vermont"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:105
+msgid "Virginia"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:106
+msgid "Washington"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:107
+msgid "West Virginia"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:108
+msgid "Wisconsin"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:109
+msgid "Wyoming"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:57
+msgid "Not applicable"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:58
+msgid "Alabama"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:59
+msgid "Alaska"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:60
+msgid "Arizona"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:61
+msgid "Arkansas"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:62
+msgid "California"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:63
+msgid "Colorado"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:64
+msgid "Conneticut"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:65
+msgid "Delaware"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:66
+msgid "District of Columbia"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:67
+msgid "Florida"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:68
+msgid "Georgia"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:69
+msgid "Hawaii"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:70
+msgid "Idaho"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:71
+msgid "Illinois"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:72
+msgid "Indiana"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:73
+msgid "Iowa"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:74
+msgid "Kansas"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:75
+msgid "Kentucky"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:76
+msgid "Louisiana"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:77
+msgid "Maine"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:78
+msgid "Maryland"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:79
+msgid "Massachusets"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:80
+msgid "Michagan"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:81
+msgid "Minnesota"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:82
+msgid "Mississippi"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:83
+msgid "Missouri"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:84
+msgid "Montana"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:85
+msgid "Nebraska"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:86
+msgid "Nevada"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:87
+msgid "New Hampshire"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:88
+msgid "New Jersey"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:89
+msgid "New Mexico"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:90
+msgid "New York"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:91
+msgid "North Carolina"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:92
+msgid "North Dakota"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:93
+msgid "Ohio"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:94
+msgid "Oklahoma"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:95
+msgid "Oregon"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:96
+msgid "Pennsylvania"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:97
+msgid "Puerto Rico"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:98
+msgid "Rhode Island"
+msgstr ""
+
+#: src/zojax/persistent/fields/vocabulary.py:99
+msgid "South Carolina"
+msgstr ""
+
