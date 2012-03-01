@@ -1,0 +1,237 @@
+# ############################################################################
+# Copyright (c) 2003-2004 Zope Corporation and Contributors.
+# All Rights Reserved.
+# This software is subject to the provisions of the Zope Public License,
+# Version 2.1 (ZPL).  A copy of the ZPL should accompany this distribution.
+# THIS SOFTWARE IS PROVIDED "AS IS" AND ANY AND ALL EXPRESS OR IMPLIED
+# WARRANTIES ARE DISCLAIMED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+# WARRANTIES OF TITLE, MERCHANTABILITY, AGAINST INFRINGEMENT, AND FITNESS
+# FOR A PARTICULAR PURPOSE.
+# ############################################################################
+# 阿佛坨 <frend.wang@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: Development/Unknown\n"
+"POT-Creation-Date: Thu Dec  8 23:06:42 2011\n"
+"PO-Revision-Date: 2012-02-25 15:06+0800\n"
+"Last-Translator: 阿佛坨 <frend.wang@gmail.com>\n"
+"Language-Team: LIG\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Virtaal 0.7.1\n"
+"Generated-By: zope/app/locales/extract.py\n"
+
+#: src/zojax/persistent/fields/vocabulary.py:100
+msgid "South Dakota"
+msgstr "南达科塔州"
+
+#: src/zojax/persistent/fields/vocabulary.py:101
+msgid "Tennessee"
+msgstr "田纳西州"
+
+#: src/zojax/persistent/fields/vocabulary.py:102
+msgid "Texas"
+msgstr "德克萨斯州"
+
+#: src/zojax/persistent/fields/vocabulary.py:103
+msgid "Utah"
+msgstr "犹他州"
+
+#: src/zojax/persistent/fields/vocabulary.py:104
+msgid "Vermont"
+msgstr "佛蒙特州"
+
+#: src/zojax/persistent/fields/vocabulary.py:105
+msgid "Virginia"
+msgstr "弗吉尼亚州"
+
+#: src/zojax/persistent/fields/vocabulary.py:106
+msgid "Washington"
+msgstr "华盛顿州"
+
+#: src/zojax/persistent/fields/vocabulary.py:107
+msgid "West Virginia"
+msgstr "西弗吉尼亚州"
+
+#: src/zojax/persistent/fields/vocabulary.py:108
+msgid "Wisconsin"
+msgstr "威斯康星州"
+
+#: src/zojax/persistent/fields/vocabulary.py:109
+msgid "Wyoming"
+msgstr "怀俄明州"
+
+#: src/zojax/persistent/fields/vocabulary.py:57
+msgid "Not applicable"
+msgstr "不适用"
+
+#: src/zojax/persistent/fields/vocabulary.py:58
+msgid "Alabama"
+msgstr "阿拉巴马州"
+
+#: src/zojax/persistent/fields/vocabulary.py:59
+msgid "Alaska"
+msgstr "阿拉斯加州"
+
+#: src/zojax/persistent/fields/vocabulary.py:60
+msgid "Arizona"
+msgstr "亚利桑那州"
+
+#: src/zojax/persistent/fields/vocabulary.py:61
+msgid "Arkansas"
+msgstr "阿肯色州"
+
+#: src/zojax/persistent/fields/vocabulary.py:62
+msgid "California"
+msgstr "加利福尼亚州"
+
+#: src/zojax/persistent/fields/vocabulary.py:63
+msgid "Colorado"
+msgstr "科罗拉多州"
+
+#: src/zojax/persistent/fields/vocabulary.py:64
+msgid "Conneticut"
+msgstr "康涅狄格州"
+
+#: src/zojax/persistent/fields/vocabulary.py:65
+msgid "Delaware"
+msgstr "特拉华州"
+
+#: src/zojax/persistent/fields/vocabulary.py:66
+msgid "District of Columbia"
+msgstr "哥伦比亚区"
+
+#: src/zojax/persistent/fields/vocabulary.py:67
+msgid "Florida"
+msgstr "佛罗里达州"
+
+#: src/zojax/persistent/fields/vocabulary.py:68
+msgid "Georgia"
+msgstr "佐治亚州"
+
+#: src/zojax/persistent/fields/vocabulary.py:69
+msgid "Hawaii"
+msgstr "夏威夷"
+
+#: src/zojax/persistent/fields/vocabulary.py:70
+msgid "Idaho"
+msgstr "爱达荷州"
+
+#: src/zojax/persistent/fields/vocabulary.py:71
+msgid "Illinois"
+msgstr "伊利诺伊州"
+
+#: src/zojax/persistent/fields/vocabulary.py:72
+msgid "Indiana"
+msgstr "印第安纳州"
+
+#: src/zojax/persistent/fields/vocabulary.py:73
+msgid "Iowa"
+msgstr "爱荷华州"
+
+#: src/zojax/persistent/fields/vocabulary.py:74
+msgid "Kansas"
+msgstr "堪萨斯州"
+
+#: src/zojax/persistent/fields/vocabulary.py:75
+msgid "Kentucky"
+msgstr "肯塔基州"
+
+#: src/zojax/persistent/fields/vocabulary.py:76
+msgid "Louisiana"
+msgstr "路易斯安那州"
+
+#: src/zojax/persistent/fields/vocabulary.py:77
+msgid "Maine"
+msgstr "缅因州"
+
+#: src/zojax/persistent/fields/vocabulary.py:78
+msgid "Maryland"
+msgstr "马里兰州"
+
+#: src/zojax/persistent/fields/vocabulary.py:79
+msgid "Massachusets"
+msgstr "马萨诸塞州"
+
+#: src/zojax/persistent/fields/vocabulary.py:80
+msgid "Michagan"
+msgstr "密歇根州"
+
+#: src/zojax/persistent/fields/vocabulary.py:81
+msgid "Minnesota"
+msgstr "明尼苏达州"
+
+#: src/zojax/persistent/fields/vocabulary.py:82
+msgid "Mississippi"
+msgstr "密西西比州"
+
+#: src/zojax/persistent/fields/vocabulary.py:83
+msgid "Missouri"
+msgstr "密苏里州"
+
+#: src/zojax/persistent/fields/vocabulary.py:84
+msgid "Montana"
+msgstr "蒙大拿州"
+
+#: src/zojax/persistent/fields/vocabulary.py:85
+msgid "Nebraska"
+msgstr "内布拉斯加州"
+
+#: src/zojax/persistent/fields/vocabulary.py:86
+msgid "Nevada"
+msgstr "内华达州"
+
+#: src/zojax/persistent/fields/vocabulary.py:87
+msgid "New Hampshire"
+msgstr "新罕布什尔州"
+
+#: src/zojax/persistent/fields/vocabulary.py:88
+msgid "New Jersey"
+msgstr "新泽西州"
+
+#: src/zojax/persistent/fields/vocabulary.py:89
+msgid "New Mexico"
+msgstr "新墨西哥州"
+
+#: src/zojax/persistent/fields/vocabulary.py:90
+msgid "New York"
+msgstr "纽约州"
+
+#: src/zojax/persistent/fields/vocabulary.py:91
+msgid "North Carolina"
+msgstr "北卡罗来纳州"
+
+#: src/zojax/persistent/fields/vocabulary.py:92
+msgid "North Dakota"
+msgstr "北达科他州"
+
+#: src/zojax/persistent/fields/vocabulary.py:93
+msgid "Ohio"
+msgstr "俄亥俄州"
+
+#: src/zojax/persistent/fields/vocabulary.py:94
+msgid "Oklahoma"
+msgstr "俄克拉何马州"
+
+#: src/zojax/persistent/fields/vocabulary.py:95
+msgid "Oregon"
+msgstr "俄勒冈州"
+
+#: src/zojax/persistent/fields/vocabulary.py:96
+msgid "Pennsylvania"
+msgstr "宾夕法尼亚州"
+
+#: src/zojax/persistent/fields/vocabulary.py:97
+msgid "Puerto Rico"
+msgstr "波多黎各"
+
+#: src/zojax/persistent/fields/vocabulary.py:98
+msgid "Rhode Island"
+msgstr "罗得岛州"
+
+#: src/zojax/persistent/fields/vocabulary.py:99
+msgid "South Carolina"
+msgstr "南卡罗来纳州"
