@@ -1,0 +1,237 @@
+##############################################################################
+#
+# Copyright (c) 2003-2004 Zope Corporation and Contributors.
+# All Rights Reserved.
+#
+# This software is subject to the provisions of the Zope Public License,
+# Version 2.1 (ZPL).  A copy of the ZPL should accompany this distribution.
+# THIS SOFTWARE IS PROVIDED "AS IS" AND ANY AND ALL EXPRESS OR IMPLIED
+# WARRANTIES ARE DISCLAIMED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+# WARRANTIES OF TITLE, MERCHANTABILITY, AGAINST INFRINGEMENT, AND FITNESS
+# FOR A PARTICULAR PURPOSE.
+#
+##############################################################################
+msgid ""
+msgstr ""
+"Project-Id-Version: Development/Unknown\n"
+"POT-Creation-Date: Thu Dec  8 23:06:42 2011\n"
+"PO-Revision-Date: 2012-04-15 13:45-0500\n"
+"Last-Translator: Mariné Pérez <marine.perez@gmail.com>\n"
+"Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: zope/app/locales/extract.py\n"
+
+#: src/zojax/persistent/fields/vocabulary.py:100
+msgid "South Dakota"
+msgstr "Dakota del Sur"
+
+#: src/zojax/persistent/fields/vocabulary.py:101
+msgid "Tennessee"
+msgstr "Tennessee"
+
+#: src/zojax/persistent/fields/vocabulary.py:102
+msgid "Texas"
+msgstr "Texas"
+
+#: src/zojax/persistent/fields/vocabulary.py:103
+msgid "Utah"
+msgstr "Utah"
+
+#: src/zojax/persistent/fields/vocabulary.py:104
+msgid "Vermont"
+msgstr "Vermont"
+
+#: src/zojax/persistent/fields/vocabulary.py:105
+msgid "Virginia"
+msgstr "Virginia"
+
+#: src/zojax/persistent/fields/vocabulary.py:106
+msgid "Washington"
+msgstr "Washington"
+
+#: src/zojax/persistent/fields/vocabulary.py:107
+msgid "West Virginia"
+msgstr "Virginia Occidental"
+
+#: src/zojax/persistent/fields/vocabulary.py:108
+msgid "Wisconsin"
+msgstr "Wisconsin"
+
+#: src/zojax/persistent/fields/vocabulary.py:109
+msgid "Wyoming"
+msgstr "Wyoming"
+
+#: src/zojax/persistent/fields/vocabulary.py:57
+msgid "Not applicable"
+msgstr "No aplica"
+
+#: src/zojax/persistent/fields/vocabulary.py:58
+msgid "Alabama"
+msgstr "Alabama"
+
+#: src/zojax/persistent/fields/vocabulary.py:59
+msgid "Alaska"
+msgstr "Alaska"
+
+#: src/zojax/persistent/fields/vocabulary.py:60
+msgid "Arizona"
+msgstr "Arizona"
+
+#: src/zojax/persistent/fields/vocabulary.py:61
+msgid "Arkansas"
+msgstr "Arkansas"
+
+#: src/zojax/persistent/fields/vocabulary.py:62
+msgid "California"
+msgstr "California"
+
+#: src/zojax/persistent/fields/vocabulary.py:63
+msgid "Colorado"
+msgstr "Colorado"
+
+#: src/zojax/persistent/fields/vocabulary.py:64
+msgid "Conneticut"
+msgstr "Connecticut"
+
+#: src/zojax/persistent/fields/vocabulary.py:65
+msgid "Delaware"
+msgstr "Delaware"
+
+#: src/zojax/persistent/fields/vocabulary.py:66
+msgid "District of Columbia"
+msgstr "District of Columbia"
+
+#: src/zojax/persistent/fields/vocabulary.py:67
+msgid "Florida"
+msgstr "Florida"
+
+#: src/zojax/persistent/fields/vocabulary.py:68
+msgid "Georgia"
+msgstr "Georgia"
+
+#: src/zojax/persistent/fields/vocabulary.py:69
+msgid "Hawaii"
+msgstr "Hawaii"
+
+#: src/zojax/persistent/fields/vocabulary.py:70
+msgid "Idaho"
+msgstr "Idaho"
+
+#: src/zojax/persistent/fields/vocabulary.py:71
+msgid "Illinois"
+msgstr "Illinois"
+
+#: src/zojax/persistent/fields/vocabulary.py:72
+msgid "Indiana"
+msgstr "Indiana"
+
+#: src/zojax/persistent/fields/vocabulary.py:73
+msgid "Iowa"
+msgstr "Iowa"
+
+#: src/zojax/persistent/fields/vocabulary.py:74
+msgid "Kansas"
+msgstr "Kansas"
+
+#: src/zojax/persistent/fields/vocabulary.py:75
+msgid "Kentucky"
+msgstr "Kentucky"
+
+#: src/zojax/persistent/fields/vocabulary.py:76
+msgid "Louisiana"
+msgstr "Louisiana"
+
+#: src/zojax/persistent/fields/vocabulary.py:77
+msgid "Maine"
+msgstr "Maine"
+
+#: src/zojax/persistent/fields/vocabulary.py:78
+msgid "Maryland"
+msgstr "Maryland"
+
+#: src/zojax/persistent/fields/vocabulary.py:79
+msgid "Massachusets"
+msgstr "Massachusetts"
+
+#: src/zojax/persistent/fields/vocabulary.py:80
+msgid "Michagan"
+msgstr "Michagan"
+
+#: src/zojax/persistent/fields/vocabulary.py:81
+msgid "Minnesota"
+msgstr "Minnesota"
+
+#: src/zojax/persistent/fields/vocabulary.py:82
+msgid "Mississippi"
+msgstr "Mississippi"
+
+#: src/zojax/persistent/fields/vocabulary.py:83
+msgid "Missouri"
+msgstr "Missouri"
+
+#: src/zojax/persistent/fields/vocabulary.py:84
+msgid "Montana"
+msgstr "Montana"
+
+#: src/zojax/persistent/fields/vocabulary.py:85
+msgid "Nebraska"
+msgstr "Nebraska"
+
+#: src/zojax/persistent/fields/vocabulary.py:86
+msgid "Nevada"
+msgstr "Nevada"
+
+#: src/zojax/persistent/fields/vocabulary.py:87
+msgid "New Hampshire"
+msgstr "Nuevo Hampshire"
+
+#: src/zojax/persistent/fields/vocabulary.py:88
+msgid "New Jersey"
+msgstr "Nueva Jersey"
+
+#: src/zojax/persistent/fields/vocabulary.py:89
+msgid "New Mexico"
+msgstr "Nuevo México"
+
+#: src/zojax/persistent/fields/vocabulary.py:90
+msgid "New York"
+msgstr "Nueva York"
+
+#: src/zojax/persistent/fields/vocabulary.py:91
+msgid "North Carolina"
+msgstr "Carolina del Norte"
+
+#: src/zojax/persistent/fields/vocabulary.py:92
+msgid "North Dakota"
+msgstr "Dakota del Norte"
+
+#: src/zojax/persistent/fields/vocabulary.py:93
+msgid "Ohio"
+msgstr "Ohio"
+
+#: src/zojax/persistent/fields/vocabulary.py:94
+msgid "Oklahoma"
+msgstr "Oklahoma"
+
+#: src/zojax/persistent/fields/vocabulary.py:95
+msgid "Oregon"
+msgstr "Oregon"
+
+#: src/zojax/persistent/fields/vocabulary.py:96
+msgid "Pennsylvania"
+msgstr "Pennsylvania"
+
+#: src/zojax/persistent/fields/vocabulary.py:97
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: src/zojax/persistent/fields/vocabulary.py:98
+msgid "Rhode Island"
+msgstr "Rhode Island"
+
+#: src/zojax/persistent/fields/vocabulary.py:99
+msgid "South Carolina"
+msgstr "Carolina del Sur"
+
