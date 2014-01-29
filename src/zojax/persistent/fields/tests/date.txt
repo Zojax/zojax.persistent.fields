@@ -29,7 +29,7 @@ Create field
     >>> admin.getControl(name="content.add.widgets.category:list").value = ['Category1']
     >>> admin.getControl(name="content.add.widgets.required:list").value = ['false']
     >>> admin.getControl('Start of the range').value = '09/01/01'
-    >>> admin.getControl('End of the range (excluding the value itself)').value = '09/03/01'
+    >>> admin.getControl('End of the range (excluding the value itself)').value = '09/03/10'
     >>> admin.getControl('Content short name').value = u'field1'
     >>> admin.getControl(name="content.add.buttons.add").click()
     >>> admin.getControl(name="content.edit.buttons.cancel").click()
@@ -86,8 +86,8 @@ selected by default
     </html>
 
     >>> user.open("http://localhost/people/user/profile/profile/")
-    >>> user.getControl(name="category.widgets.field1").value = '09/02/14'
-    >>> user.getControl(name="category.widgets.field2").value = '07/01/01'
+    >>> user.getControl(name="category.widgets.field1").value = '02/14/09'
+    >>> user.getControl(name="category.widgets.field2").value = '01/01/07'
     >>> user.getControl('Save').click()
 
     >>> data = profile.getProfileData()
@@ -111,7 +111,7 @@ View fields
           <label for="form-widgets-field1"...>Field 1</label>
           <div>
             <span id="form-widgets-field1"
-             class="text-widget date-field">09/02/14</span>
+             class="text-widget date-field">2/14/09</span>
          </div>
         </div>
       </div>
@@ -123,7 +123,7 @@ View fields
           <label for="form-widgets-field2"...>Field 2</label>
           <div>
             <span id="form-widgets-field2"
-             class="text-widget required date-field">07/01/01</span>
+             class="text-widget required date-field">1/1/07</span>
           </div>
         </div>
       </div>
