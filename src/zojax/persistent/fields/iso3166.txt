@@ -112,8 +112,6 @@ Jordan;JO
 Kazakhstan;KZ
 Kenya;KE
 Kiribati;KI
-Korea North;KR
-Korea South;KP
 Kuwait;KW
 Kyrgyzstan;KG
 Lao People's Democratic Republic;LA
@@ -157,6 +155,7 @@ Niger;NE
 Nigeria;NG
 Niue;NU
 Norfolk Island;NF
+North Korea;KR
 Norway;NO
 Oman;OM
 Pakistan;PK
@@ -197,6 +196,7 @@ Solomon Islands;SB
 Somalia;SO
 South Africa;ZA
 South Georgia and the South Sandwich Islands;GS
+South Korea;KP
 South Sudan;SS
 Spain;ES
 Sri Lanka;LK
