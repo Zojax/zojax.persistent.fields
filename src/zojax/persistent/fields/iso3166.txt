@@ -1,4 +1,3 @@
-United States;US
 Afghanistan;AF
 Aland Islands;AX
 Albania;AL
@@ -95,6 +94,7 @@ Guyana;GY
 Haiti;HT
 Heard Island and McDonald Islands;HM
 Honduras;HN
+Hong Kong;HK
 Hungary;HU
 Iceland;IS
 India;IN
@@ -155,7 +155,7 @@ Niger;NE
 Nigeria;NG
 Niue;NU
 Norfolk Island;NF
-North Korea;KR
+North Korea;KP
 Norway;NO
 Oman;OM
 Pakistan;PK
@@ -196,7 +196,7 @@ Solomon Islands;SB
 Somalia;SO
 South Africa;ZA
 South Georgia and the South Sandwich Islands;GS
-South Korea;KP
+South Korea;KR
 South Sudan;SS
 Spain;ES
 Sri Lanka;LK
@@ -225,6 +225,7 @@ Uganda;UG
 Ukraine;UA
 United Arab Emirates;AE
 United Kingdom;GB
+United States;US
 Uruguay;UY
 Uzbekistan;UZ
 Vanuatu;VU
