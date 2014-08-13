@@ -141,7 +141,7 @@ class ICountry(IBaseField, schema.interfaces.ITextLine):
 
 
 class IState(IBaseField, schema.interfaces.ITextLine):
-    """ US State """
+    """ State/Province """
 
 
 class ILines(IBaseField, schema.interfaces.IField):

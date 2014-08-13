@@ -54,7 +54,7 @@ class CountriesVocabulary(object):
         return countries
 
 
-STATE_VOCAB = ((u'', _(u'Not applicable')),
+STATE_VOCAB = ((u'--NOVALUE--', _(u'Please select')),
                (u'AK', _(u'AK')),
                (u'AL', _(u'AL')),
                (u'AR', _(u'AR')),
@@ -107,7 +107,8 @@ STATE_VOCAB = ((u'', _(u'Not applicable')),
                (u'WA', _(u'WA')),
                (u'WI', _(u'WI')),
                (u'WV', _(u'WV')),
-               (u'WY', _(u'WY')))
+               (u'WY', _(u'WY')),
+               (u'', _(u'Not applicable')))
 
 states = SimpleVocabulary(
     [SimpleTerm(item[0], item[0], item[1]) for item in STATE_VOCAB])

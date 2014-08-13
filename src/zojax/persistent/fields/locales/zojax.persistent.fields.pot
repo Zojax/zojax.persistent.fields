@@ -137,7 +137,7 @@ msgid "Field containing a us state name."
 msgstr ""
 
 #: src/zojax/persistent/fields/configure.zcml:348
-msgid "US State"
+msgid "State/Province"
 msgstr ""
 
 #: src/zojax/persistent/fields/configure.zcml:370

@@ -349,7 +349,7 @@
 
   <!-- State field -->
   <zojax:content
-     title="US State"
+     title="State/Province"
      name="persistent.field.state"
      schema=".interfaces.IState"
      type=".interfaces.IFieldType"
@@ -388,7 +388,7 @@
        permission="zojax.ModifyContent"
        set_schema=".interfaces.IField .interfaces.ILines" />
   </class>
-  
+
   <!-- Captcha field -->
   <zojax:content
      title="Captcha"
