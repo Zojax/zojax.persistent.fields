@@ -61,7 +61,7 @@ selected by default
     >>> type(data['field1']), data['field1']
     (<type 'NoneType'>, None)
     >>> type(data['field2']), data['field2']
-    (<type 'unicode'>, u'US')
+    (<type 'unicode'>, u'AF')
 
     >>> user.open("http://localhost/people/user/profile/profile/")
     >>> user.getControl(name="category.widgets.field1:list").value = ['KZ']
