@@ -16,9 +16,9 @@
 $Id$
 """
 from z3c.form.browser.select import SelectWidget
-from z3c.form.widget import ComputedWidgetAttribute
+from z3c.form.widget import ComputedWidgetAttribute, StaticWidgetAttribute
 
-from zojax.persistent.fields.interfaces import ISelect
+from zojax.persistent.fields.interfaces import ISelect, _
 
 # Add "prompt" to adapter attributes for z3c.form 1.9
 if 'prompt' not in SelectWidget._adapterValueAttributes:
@@ -27,3 +27,5 @@ if 'prompt' not in SelectWidget._adapterValueAttributes:
 PromptNeeded = ComputedWidgetAttribute(
     lambda value:getattr(value.field, 'explicitSelect', False),
     field=ISelect)
+
+PromptMessage = StaticWidgetAttribute(_(u'select a value ...'))

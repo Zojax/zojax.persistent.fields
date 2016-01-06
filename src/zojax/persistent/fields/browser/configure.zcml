@@ -50,6 +50,11 @@
       factory=".select.PromptNeeded"
       />
 
+  <adapter
+      name="promptMessage"
+      factory=".select.PromptMessage"
+      />
+
   <!-- icons -->
   <browser:icon
      name="zmi_icon"
@@ -74,7 +79,7 @@
   <!-- rixhtext widget display -->
   <zojax:pagelet
      type="form.widget"
-     for="z3c.form.interfaces.IWidget 
+     for="z3c.form.interfaces.IWidget
 	  ..interfaces.IRichText z3c.form.interfaces.IDisplayForm"
      template="displayrichtext.pt" />
 

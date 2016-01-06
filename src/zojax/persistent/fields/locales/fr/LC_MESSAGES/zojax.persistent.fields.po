@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Development/Unknown\n"
-"POT-Creation-Date: Wed Jan  6 20:51:26 2016\n"
+"POT-Creation-Date: Wed Jan  6 20:43:08 2016\n"
 "PO-Revision-Date: 2012-04-15 13:45-0500\n"
 "Last-Translator: Mariné Pérez <marine.perez@gmail.com>\n"
 "Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
@@ -32,7 +32,6 @@ msgid "Test is successful."
 msgstr ""
 
 #: zojax/persistent/fields/browser/field.py:167
-#, fuzzy
 msgid "Test"
 msgstr ""
 
@@ -42,7 +41,7 @@ msgstr ""
 
 #: zojax/persistent/fields/browser/select.py:31
 msgid "select a value ..."
-msgstr "Seleccione un valor"
+msgstr ""
 
 #: zojax/persistent/fields/interfaces.py:50
 msgid "Title"
@@ -82,7 +81,7 @@ msgstr ""
 
 #: zojax/persistent/fields/vocabulary.py:57
 msgid "Please select"
-msgstr "Seleccione uno"
+msgstr ""
 
 #: zojax/persistent/fields/vocabulary.py:58
 msgid "AK"
@@ -298,157 +297,4 @@ msgstr ""
 
 #: zojax/persistent/fields/vocabulary.py:111
 msgid "Not applicable"
-msgstr "No aplica"
-
-#~ msgid "South Dakota"
-#~ msgstr "Dakota del Sur"
-
-#~ msgid "Tennessee"
-#~ msgstr "Tennessee"
-
-#~ msgid "Utah"
-#~ msgstr "Utah"
-
-#~ msgid "Vermont"
-#~ msgstr "Vermont"
-
-#~ msgid "Virginia"
-#~ msgstr "Virginia"
-
-#~ msgid "Washington"
-#~ msgstr "Washington"
-
-#~ msgid "West Virginia"
-#~ msgstr "Virginia Occidental"
-
-#~ msgid "Wisconsin"
-#~ msgstr "Wisconsin"
-
-#~ msgid "Wyoming"
-#~ msgstr "Wyoming"
-
-#~ msgid "Alabama"
-#~ msgstr "Alabama"
-
-#~ msgid "Alaska"
-#~ msgstr "Alaska"
-
-#~ msgid "Arizona"
-#~ msgstr "Arizona"
-
-#~ msgid "Arkansas"
-#~ msgstr "Arkansas"
-
-#~ msgid "California"
-#~ msgstr "California"
-
-#~ msgid "Colorado"
-#~ msgstr "Colorado"
-
-#~ msgid "Conneticut"
-#~ msgstr "Connecticut"
-
-#~ msgid "Delaware"
-#~ msgstr "Delaware"
-
-#~ msgid "District of Columbia"
-#~ msgstr "District of Columbia"
-
-#~ msgid "Florida"
-#~ msgstr "Florida"
-
-#~ msgid "Georgia"
-#~ msgstr "Georgia"
-
-#~ msgid "Hawaii"
-#~ msgstr "Hawaii"
-
-#~ msgid "Idaho"
-#~ msgstr "Idaho"
-
-#~ msgid "Illinois"
-#~ msgstr "Illinois"
-
-#~ msgid "Indiana"
-#~ msgstr "Indiana"
-
-#~ msgid "Iowa"
-#~ msgstr "Iowa"
-
-#~ msgid "Kansas"
-#~ msgstr "Kansas"
-
-#~ msgid "Kentucky"
-#~ msgstr "Kentucky"
-
-#~ msgid "Louisiana"
-#~ msgstr "Louisiana"
-
-#~ msgid "Maine"
-#~ msgstr "Maine"
-
-#~ msgid "Maryland"
-#~ msgstr "Maryland"
-
-#~ msgid "Massachusets"
-#~ msgstr "Massachusetts"
-
-#~ msgid "Michagan"
-#~ msgstr "Michagan"
-
-#~ msgid "Minnesota"
-#~ msgstr "Minnesota"
-
-#~ msgid "Mississippi"
-#~ msgstr "Mississippi"
-
-#~ msgid "Missouri"
-#~ msgstr "Missouri"
-
-#~ msgid "Montana"
-#~ msgstr "Montana"
-
-#~ msgid "Nebraska"
-#~ msgstr "Nebraska"
-
-#~ msgid "Nevada"
-#~ msgstr "Nevada"
-
-#~ msgid "New Hampshire"
-#~ msgstr "Nuevo Hampshire"
-
-#~ msgid "New Jersey"
-#~ msgstr "Nueva Jersey"
-
-#~ msgid "New Mexico"
-#~ msgstr "Nuevo México"
-
-#~ msgid "New York"
-#~ msgstr "Nueva York"
-
-#~ msgid "North Carolina"
-#~ msgstr "Carolina del Norte"
-
-#~ msgid "North Dakota"
-#~ msgstr "Dakota del Norte"
-
-#~ msgid "Ohio"
-#~ msgstr "Ohio"
-
-#~ msgid "Oklahoma"
-#~ msgstr "Oklahoma"
-
-#~ msgid "Oregon"
-#~ msgstr "Oregon"
-
-#~ msgid "Pennsylvania"
-#~ msgstr "Pennsylvania"
-
-#~ msgid "Puerto Rico"
-#~ msgstr "Puerto Rico"
-
-#~ msgid "Rhode Island"
-#~ msgstr "Rhode Island"
-
-#~ msgid "South Carolina"
-#~ msgstr "Carolina del Sur"
+msgstr ""
