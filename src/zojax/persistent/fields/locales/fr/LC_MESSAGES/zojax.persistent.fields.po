@@ -41,7 +41,7 @@ msgstr ""
 
 #: zojax/persistent/fields/browser/select.py:31
 msgid "select a value ..."
-msgstr ""
+msgstr "sélectionner une valeur"
 
 #: zojax/persistent/fields/interfaces.py:50
 msgid "Title"
@@ -81,7 +81,7 @@ msgstr ""
 
 #: zojax/persistent/fields/vocabulary.py:57
 msgid "Please select"
-msgstr ""
+msgstr "Sélectionner"
 
 #: zojax/persistent/fields/vocabulary.py:58
 msgid "AK"
